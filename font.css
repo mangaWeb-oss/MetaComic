@@ -1,0 +1,210 @@
+/* Globet  */
+@font-face {
+	font-family: 'Globet-Bold';
+	src: url('res/font/Globet-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face  {
+	font-family: 'Globet-Regular';
+	src: url('res/font/Globet-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+/* LTHumor */
+@font-face {
+	font-family: 'LTHumor-Bold';
+	src: url('res/font/LTHumor.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'LTHumor-Black':
+	src: url('res/font/LTHumor-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'LTHumor-ExtraBlack';
+	src: url('res/font/LTHumor-ExtraBlack.ttf') format('truetype');
+	font-family: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'LTHumor-ExtraBold';
+	src: url('res/font/LTHumor-ExtraBold.ttf') format('truetype');
+	font-family: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'LTHumor-Light';
+	src: url('res/font/LTHumor-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'LTHumor-Medium';
+	src: url('res/font/LTHumor-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'LTHumor-SemiBold';
+	src: url('res/font/LTHumor-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+/* Poppins */
+@font-face {
+	font-family: 'Poppins-Black';
+	src: url('res/font/Poppins-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'Poppins-Bold';
+	src: url('res/font/Poppins-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'Poppins-ExtraBold';
+	src: url('res/font/Poppins-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'Poppins-ExtaraLight';
+	src: url('res/font/Poppins-ExtraLight.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'Poppins-Light';
+	src: url('res/font/Poppins-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url('res/font/Poppins-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('res/font/Poppins-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+/*  WinkySans  */
+@font-face {
+	font-family: 'WinkySans-Black';
+	src: url('res/font/WinkySans-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'WinkySans-Bold';
+	src: url('res/font/WinkySans-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'WinkySans-ExtraBold';
+	src: url('res/font/WinkySans-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'WinkySans-Light';
+	src: url('res/font/WinkySans-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'WinkySans-Medium';
+	src: url('res/font/WinkySans-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'WinkySans-Regular';
+	src: url('res/font/WinkySans-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+/*  Zalando */
+@font-face {
+	font-family: 'ZalandoSans-Black';
+	src: url('res/font/ZalandoSans-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'ZalandoSans-Bold';
+	src: url('res/font/ZalandoSans-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'ZalandoSans-Codensed';
+	src: url('res/font/ZalandoSans-Codensed.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'ZalandoSans-CodensedExtraBold';
+	src: url('res/font/ZalandoSans-CodensedExtraBold.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'ZalandoSans-ExpandedBold';
+	src: url('res/font/ZalandoSans-ExpandedBold.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'ZalandoSans-ExtraBold';
+	src: url('res/font/ZalandoSans-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+	font-family: 'ZalandoSansSemiExpanded';
+	src: url('res/font/ZalandoSansSemiExpanded.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	}
+	
+/* FONT */
+/* Globet-Bold */
+/* Globet-Regular */
+/* LTHumor-Bold */
+/* LTHumor-Black */
+/* LTHumor-ExtraLight */
+/* LTHumor-ExtraBold */
+/* LTHumor-Light */
+/* LTHumor-Medium */
+/* LTHumor-SemiBold */
+/* Poppins-Black */
+/* Poppins-Bold */
+/* Poppins-ExtraBold */
+/* Poppins-ExtraLight*/
+/* Poppins-Light */
+/* Poppins-Medium */
+/* Poppins-Regular */
+/* WinkySans-Black */
+/* WinkySans-Bold */
+/* WinkySans-ExtraBold */
+/* WinkySans-Light*/
+/* WinkySans-Medium */
+/* WinkySans-Regular */
+/* ZalandoSans-Black */
+/* ZalandoSans-Bold */
+/* ZalandoSans-Codensed */
+/* ZalandoSans-CodensedExtraBold*/
+/* ZalandoSans-ExpandedBold */
+/* ZalandoSans-ExtraBold */
+/* ZalandoSansSemiExpanded */
