@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Meta | Comic</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="font.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="homeDaftarTerbaru.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="menuBarFunction.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="homeDaftarPopuler.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="homeDaftarCompleted.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="exploreDaftarAll.css" type="text/css" media="all" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="https://xarwarecloud.wuaze.com/res/images/favicon.png">
+        <!-- Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Font Awesome -->
+        <link   rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+    <body>
+        <!-- === MENU BAR FUNCTION === -->
+        <div class="menuBarFunction">
+            <div class="menuDisplay"></div>
+            <div class="menuBarPage">
+                <div class="menuAkunPage">
+                    <div id="iconAkun"></div>
+                    <h1 id="namaAkun"></h1>
+                    <p id="uidAkun"></p>
+                    <button id="logout"></button>
+                </div>
+                <div class="menuPage">
+                    <li><a href="#home"><div class="menuBarIcon"></div><span>Home</span></a></li>
+                    <li><a href="#explore"><div class="menuBarIcon"></div><span>Semua Manga</span></a></li>
+                    <li><a href="menuDaftarPopuler.html"><div class="menuBarIcon"></div><span>Populer</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>Ongoing</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>Completed</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>History</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>Update Hari Ini</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>Rating Tinggi</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>Genre</span></a></li>
+                    <li><a href="#"><div class="menuBarIcon"></div><span>Yang Akan Rilis</span></a></li>
+                    <div class="menuAboutPage">
+                        <h4><span>About</span></h4>
+                        <a href="#"><li><div id="p1" class="menuImgAboutPage"></div><span>Event</span></li></a>
+                        <a href="#"><li><div id="p2" class="menuImgAboutPage"></div><span>Traktir kopi🗿</span></li></a>
+                        <a href="#"><li><div id="p3" class="menuImgAboutPage"></div><span>Join Komunitas</span></li></a>
+                        <a href="#"><li><div id="p4" class="menuImgAboutPage"></div><span>Tentang Kami</span></li></a>
+                        <a href="#"><li><div id="p5" class="menuImgAboutPage"></div><span>Saluran Whatsapp</span></li></a>
+                        <a href="#"><li><div id="p6" class="menuImgAboutPage"></div><span>Update Premium</span></li></a>
+                        <a href="#"><li><div id="p7" class="menuImgAboutPage"></div><span>Kasi Apresiasi</span></li></a>
+                        <div class="endAboutPage"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- === MAIN LOGO SECTION === -->
+        <section id="mainLogo">
+            <div class="aboutS1">
+                <p><span>Temukan dunia penuh cerita di <a href="#">metacomic.com</a>website baca komik dan manga terlengkap, update setiap hari, dan bisa kamu baca gratis tanpa batas!</span></p>
+            </div>
+            <div class="logo">
+                <h1>MetaComic</h1>
+                <div class="logoMenuBar"></div>
+                <div class="logoSearch"></div>
+                <div class="LogoIconAkun" id="logoIconAkun"></div>
+            </div>
+            <div class="logoRelative"></div>
+        </section>
+        <!-- === HEADER VIDEO BAR === -->
+        <header>
+            <div class="headerVideoBar">
+                <div class="videoBar">
+                    <video src="res/raw/w2.mp4" loop autoplay muted></video>
+                    <div class="videoBarShadow">
+                        <h1>Jasa Pembuatan Website</h1>
+                        <p>Bikin website portofolio, marketplace, branding produk, aplikasi mobile (Java/Kotlin/C++), game open world RPG/MOBA, dan bahkan AI — semuanya bisa!  Jika Anda punya masalah error atau butuh konsultasi, insya Allah kita bisa membantu.</p>
+                        <div class="barShadowOrder">Anda Tertarik?<a class="barShadowOrderA" href="#">Order Sekarang</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- === HOME SECTION === -->
+            <section id="home">
+                <div class="homeDaftarTerbaru">
+                    <div class="teksDaftarTerbaru">
+                        <h1>Terbaru</h1>
+                        <a href="#">Lihat Semua</a>
+                    </div>
+                    <nav class="daftarTerbaru"></nav>
+                </div>
+                <div class="homeDaftarPopuler">
+                    <div class="teksDaftarPopuler">
+                        <h1>Populer</h1>
+                        <a href="#">Lihat Semua</a>
+                    </div>
+                    <nav class="daftarPopuler">
+                        
+                    </nav>
+                </div>
+                <div class="homeDaftarGenre">
+                    <div class="teksDaftarGenre">
+                        <h1>Genre</h1>
+                    </div>
+                    <div class="daftarGenre">
+                        <a href="#"><h3>Action</h3></a>
+                        <a href="#"><h3>Adventure</h3></a>
+                        <a href="#"><h3>Comedy</h3></a>
+                        <a href="#"><h3>Drama</h3></a>
+                        <a href="#"><h3>Fantasy</h3></a>
+                        <a href="#"><h3>Game</h3></a>
+                        <a href="#"><h3>Isekai</h3></a>
+                        <a href="#"><h3>Magic</h3></a>
+                        <a href="#"><h3>Rencarnation</h3></a>
+                        <a href="#"><h3>Romance</h3></a>
+                        <a href="#"><h3>Super Power</h3></a>
+                    </div>
+                </div>
+                <div class="homeDaftarCompleted">
+                    <div class="teksDaftarCompleted">
+                        <h1>Completed</h1>
+                        <a href="#">Lihat Semua</a>
+                    </div>
+                    <nav class="daftarCompleted">
+                        
+                    </nav>
+                </div>
+            </section>
+            <section id="explore">
+                <div class="exploreLogo">
+                    <div class="explorePremium">
+                        
+                    </div>
+                    <h1>explore</h1>
+                    <div class="exploreSimpan">
+                        
+                    </div>
+                </div>
+                <div class="exploreRelative">
+                    
+                </div>
+                <nav class="daftarAll">
+                    
+                </nav>
+            </section>
+        </header>
+        <!-- === Local Js === -->
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+        <script src="libs/homeDaftarTerbaru.js" type="text/javascript" charset="utf-8"></script>
+        <script src="libs/homeDaftarPopuler.js" type="text/javascript" charset="utf-8"></script>
+        <script src="libs/homeDaftarCompleted.js" type="text/javascript" charset="utf-8"></script>
+        <script src="libs/exploreDaftarAll.js" type="text/javascript" charset="utf-8"></script>
+        <!-- === FIREBASE SDK === -->
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-analytics.js";
+            import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+            const firebaseConfig = {
+                apiKey: "AIzaSyC8h8rvrZajQaq1k4Q2VPmetZ79epoi-bk",
+                authDomain: "xarwaremenuakun.firebaseapp.com",
+                projectId: "xarwaremenuakun",
+                storageBucket: "xarwaremenuakun.firebasestorage.app",
+                messagingSenderId: "886431424925",
+                appId: "1:886431424925:web:21e991a05b72ff0f9a4f74",
+                measurementId: "G-5GHGBD9LPE"
+            };
+            const app = initializeApp(firebaseConfig);
+            getAnalytics(app);
+            const auth = getAuth(app);
+            const provider = new GoogleAuthProvider();
+            let UID = "-";
+            /* MAGIC VIEW — CUKUP view="Judul Asli" → OTOMATIS +1 */
+            const spam = new Set();
+            function fmt(n) { return n < 1e3 ? n : n < 1e6 ? (n/1e3).toFixed(1).replace('.0','')+'k' : (n/1e6).toFixed(1).replace('.0','')+'M'; }
+            async function addView(judul) {
+                if (UID === "-" || spam.has(judul)) return;
+                spam.add(judul);
+                setTimeout(() => spam.delete(judul), 1000);
+                try {
+                    const r = await fetch("/add-view", { method: "POST", headers: {"Content-Type":"application/json"}, body: JSON.stringify({key: judul, uid: UID}) });
+                    const d = await r.json();
+                    if (d.success) {
+                        const box = event.target.closest('.box-0');
+                        const v = box?.querySelector('[class*="viewBox"]');
+                        if (v) v.textContent = fmt(d.total);
+                    }
+                } catch(e) {}
+            }
+            new MutationObserver(() => {
+                document.querySelectorAll('a[view]').forEach(a => {
+                    if (a.dataset.ok) return;
+                    a.dataset.ok = "1";
+                    a.addEventListener("click", e => {
+                        e.preventDefault();
+                        addView(a.getAttribute("view"));
+                        if (UID === "-");
+                        window.open(a.href, "_blank");
+                    });
+                });
+            }).observe(document.body, {childList:true, subtree:true});
+            /* LOGIN */
+            document.addEventListener("DOMContentLoaded", () => {
+                const nama = document.getElementById("namaAkun");
+                const uidEl = document.getElementById("uidAkun");
+                const icon = document.getElementById("iconAkun");
+                const iconLogo = document.getElementById("logoIconAkun");
+                const btn = document.getElementById("logout");
+                btn.onclick = () => auth.currentUser ? signOut(auth) : signInWithPopup(auth, provider);
+                onAuthStateChanged(auth, user => {
+                    UID = user ? user.uid : "-";
+                    nama.textContent = user?.displayName || "Guest";
+                    uidEl.textContent = UID;
+                    const photo = user?.photoURL || 'res/raw/user.png';
+                    icon.style.backgroundImage = iconLogo.style.backgroundImage = `url(${photo})`;
+                    btn.textContent = UID === "-" ? "Login" : "Logout";
+                });
+            });
+        </script>
+    </body>
+</html>    

@@ -1,0 +1,115 @@
+header #home {
+    position: relative;
+    width: 100%;
+    display: grid;
+}
+header #home .homeDaftarTerbaru {
+    width: 100%;
+    position: relative;
+    background: rgba(0,0,0,0.03);
+}
+header #home .homeDaftarTerbaru .teksDaftarTerbaru {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+}
+header #home .homeDaftarTerbaru .teksDaftarTerbaru h1 {
+    font-size: 2.5vh;
+    margin-left: 2vh;
+    margin-top: 2.5vh;
+    color: black;
+}
+header #home .homeDaftarTerbaru .teksDaftarTerbaru a {
+    text-decoration: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-right: 2vh;
+    margin-top: 3.5vh;
+    font-size: 2.3vh;
+    color: #FF6D4A;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru {
+    position: relative;
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(15vh, 1fr));
+    margin-top: 1.3vh;
+    gap: 1vh;
+    font-family: 'Poppins-Medium', Sans-Serif;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a {
+    position: relative;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar {
+    position: relative;
+    display: block;
+    width: 17vh;
+    height: 27vh;
+    margin-top: 3vh;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .imgDaftar {
+    width: 17vh;
+    height: 22vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    overflow-y: auto; 
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .imgDaftar .iconDaftarShadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.2);
+    justify-items: center;
+    align-content: center;
+    opacity: 0;
+    overflow: hidden;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .imgDaftar:hover .iconDaftarShadow {
+    opacity: 1;
+    transition: 1s;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .imgDaftar .iconDaftarShadow .iconDaftar {
+    width: 6vh;
+    height: 6vh;
+    background-image: url('res/raw/play.png');
+    background-size: cover;
+    background-position: center;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .imgDaftar .statusBoxDaftar {
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    transform: translateY(18vh);
+    transition: 0.3s;
+    text-align: center;
+    align-items: center;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .imgDaftar:hover .statusBoxDaftar {
+    transform: translateY(25vh);
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .judulBoxDaftar {
+    width: 98%;
+    position: relative;
+    height: 5vh;
+}
+header #home .homeDaftarTerbaru .daftarTerbaru a .mangaBoxDaftar .judulBoxDaftar p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 1.8vh;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

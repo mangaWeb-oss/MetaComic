@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins-Medium',Sans-Serif;
+}
+body {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+#mainLogo {
+    position: relative;
+    display: inline-block;
+}
+#mainLogo .aboutS1 {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-top: 1vh;
+}
+#mainLogo .aboutS1 p {
+    width: 96%;
+    margin-top: 2vh;
+    text-align: center;
+    align-content: center;
+    margin-left: 1vh;
+    justify-self: center;
+    border-radius: 0.5vh;
+    height: 14vh;
+    box-shadow: 0 0.2vh 0.2vh 0.1vh rgba(0,0,0,0.5);
+}
+#mainLogo .aboutS1 p span {
+    font-family: 'WinkySans-Light', Sans-Serif;
+    font-size: 2.2vh;
+}
+#mainLogo .logo {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background: white;
+    align-items: center;
+    z-index: 99;
+}
+#mainLogo .logo h1 {
+    font-size: 2.5vh;
+    color: black;
+    margin-left: 2vh;
+}
+#mainLogo .logo .logoMenuBar {
+    width: 4vh;
+    height: 4vh;
+    margin-left: 2vh;
+    background-image: url('res/raw/menu.png');
+    background-size: cover;
+    background-position: center;
+}
+#mainLogo .logo .logoSearch {
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-left: 18vh;
+    background-image: url('res/raw/search.png');
+    background-size: cover;
+    background-position: center;
+}
+#mainLogo .logo .logoIconAkun {
+    width: 5.5vh;
+    height: 5.5vh;
+    margin-left: auto;
+    margin-right: 2vh;
+    border-radius: 50%;
+    box-shadow: 0 0.1vh 0.1vh 0.1vh rgba(0, 0, 0, 0.3);
+    background-image: url('res/raw/user.png');
+    background-size: cover;
+    background-position: center;
+}
+#mainLogo .logoRelative {
+    position: relative;
+    width: 100%;
+    height: 8vh;
+}
+header {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+header .headerVideoBar {
+    width: 100%;
+    position: relative;
+    height: 35vh;
+    background: transparent;
+    font-family: 'WinkySans-Medium', Sans-Serif;
+}
+header .headerVideoBar .videoBar {
+    width: 100%;
+    height: 32vh;
+    position: absolute;
+    z-index: 3;
+}
+header .headerVideoBar .videoBar video  {
+    width: 100%;
+    height: 32vh;
+    position: absolute;
+}
+header .headerVideoBar .videoBar .videoBarShadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    margin-top: 3vh;
+    background: transparent;
+}
+header .headerVideoBar .videoBar .videoBarShadow h1 {
+    font-size: 3vh;
+    color: rgba(255,255,255, 1);
+}
+header .headerVideoBar .videoBar .videoBarShadow p {
+    font-size: 2.2vh;
+    color: rgba(255,255,255, 0.8);
+}
+header .headerVideoBar .videoBar .videoBarShadow .barShadowOrder {
+    width: 70%;
+    height: 5vh;
+    border-radius: 2vh;
+    background: rgba(255,255,255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    font-size: 2vh;
+    box-shadow: 0 0.2vh 0.5vh 0.2vh rgba(0,0,0,0.5);
+}
+header .headerVideoBar .videoBar .videoBarShadow .barShadowOrder .barShadowOrderA {
+    color: #FF6D4A;
+    font-size: 2vh;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+header .homeDaftarGenre {
+    width: 100%;
+    height: 100%; 
+    transform: translateY(5vh);
+    background: rgba(0,0,0,0.03);
+}
+header .homeDaftarGenre .teksDaftarGenre {
+    width: 100%;
+    height: 5vh;
+    margin-top: 2vh;
+    text-align: center;
+    align-content: center;
+}
+header .homeDaftarGenre .teksDaftarGenre h1 {
+    font-size: 3.5vh;
+    font-family: 'Poppins-ExtraBold', Sans-Serif;
+}
+header .homeDaftarGenre .daftarGenre {
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    gap: 1.3vh;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+header .homeDaftarGenre .daftarGenre a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+header .homeDaftarGenre .daftarGenre a h3 {
+    width: 20vh;
+    height: 6vh;
+    text-align: center;
+    align-content: center;
+    border-radius: 1vh;
+    font-size: 3vh;
+    font-family: 'WinkySans-Bold', Sans-Serif;
+    background: white;
+    border: 0.1vh solid rgba(0, 0, 0, 0.5);
+}

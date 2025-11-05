@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+/* ========================= MENU UTAMA ========================= */
+.menuDaftarPopuler {
+    width: 100%;
+    position: relative;
+    display: grid;
+    background: rgba(0,0,0,0.05);
+}
+
+/* ========================= LOGO BAR ========================= */
+.menuDaftarPopuler .logoMenuDaftarPopuler {
+    width: 100%;
+    height: 10vh;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menuDaftarPopuler .logoMenuDaftarPopuler a {
+    -webkit-tap-highlight-color: transparent;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menuDaftarPopuler .logoMenuDaftarPopuler a .homeMenuDaftarPopuler {
+    width: 5vh;
+    height: 5vh;
+    position: relative;
+    margin-left: 5vh;
+    background-image: url('res/raw/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menuDaftarPopuler .logoMenuDaftarPopuler h1 {
+    font-size: 3vh;
+    color: black;
+    font-family: 'Globet-Bold', Sans-Serif;
+}
+
+.menuDaftarPopuler .logoMenuDaftarPopuler a .searchMenuDaftarPopuler {
+    width: 5vh;
+    height: 5vh;
+    position: relative;
+    margin-right: 5vh;
+    background-image: url('res/raw/search.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ========================= LIST KOMIK ========================= */
+.menuDaftarPopuler .menuDaftarPopulerScroll {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(15vh, 1fr));
+    margin-top: 1.3vh;
+    gap: 1vh;
+    font-family: 'Poppins-Medium', Sans-Serif;
+}
+
+.menuDaftarPopuler .menuDaftarPopulerScroll a {
+    -webkit-tap-highlight-color: transparent;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler {
+    width: 18vh;
+    height: 28vh;
+    position: relative;
+    display: block;
+}
+
+/* ========================= SHADOW BOX ========================= */
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .shadowBoxMenuDaftarPopuler {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+}
+
+/* ========================= GAMBAR KOMIK ========================= */
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 22vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0; /* dasar layer */
+}
+
+/* Bayangan bawah gambar */
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10vh;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,5));
+    border-radius: 3vh;
+    z-index: 1;
+}
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler:hover .imgBoxMenuDaftarPopuler::before {
+    bottom: 0;
+    transition: 0.3s;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,5));
+}
+/* ========================= TOMBOL PLAY ========================= */
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler .imgMenuButtonBoxShadow {
+    position: absolute;
+    width: 6vh;
+    height: 6vh;
+    justify-self: center;
+    margin-top: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('res/raw/play.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler .h4 {
+    position: absolute;
+    justify-self: center;
+    font-size: 2.5vh;
+    margin-top: 13vh;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+}
+/* Tambahkan teks "Play" lewat CSS */
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler:hover 
+.imgBoxMenuDaftarPopuler .h4::before {
+    content: "Play"; /* teks muncul otomatis */
+    display: inline-block;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.3vh;
+    transition: 0.3s ease;
+}
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler:hover .imgBoxMenuDaftarPopuler .imgMenuButtonBoxShadow,.menuDaftarPopuler .menuDaftarPopulerScroll:hover a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler .h4 {
+    opacity: 1;
+    transition: 1s;
+}
+/* ========================= TEKS VIEW / INFO ========================= */
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler .viewBoxMenuImgPopuler {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    z-index: 3; /* di atas bayangan dan tombol */
+}
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler:hover .imgBoxMenuDaftarPopuler .viewBoxMenuImgPopuler {
+    transform: translateY(5vh);
+    transition: 0.3s;
+}
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler .viewBoxMenuImgPopuler span:nth-child(1),
+.menuDaftarPopuler .menuDaftarPopulerScroll a .boxMenuDaftarPopuler .imgBoxMenuDaftarPopuler .viewBoxMenuImgPopuler span:nth-child(2) {
+    font-size: 2vh;
+    color: white;
+    z-index: 3;
+}

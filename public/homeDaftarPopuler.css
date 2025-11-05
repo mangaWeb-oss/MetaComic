@@ -1,0 +1,126 @@
+#header .homeDaftarPopuler {
+    width: 100%;
+    position: relative;
+    display: flex;
+    background: rgba(0,0,0,0.03);
+}
+.homeDaftarPopuler .teksDaftarPopuler {
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 3vh;
+}
+.homeDaftarPopuler .teksDaftarPopuler h1 {
+    font-size: 3vh;
+    margin-left: 2vh;
+    color: black;
+    position: relative;
+}
+.homeDaftarPopuler .teksDaftarPopuler a {
+    margin-right: 3vh;
+    font-size: 2vh;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    gap: 1vh;
+}
+.homeDaftarPopuler .daftarPopuler {
+    width: 100vw;
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    overflow-y: hidden;
+    margin-top: 3vh;
+    height: 30vh;
+    font-family: 'Poppins-Medium', Sans-Serif;
+    gap: 1.3vh;
+}
+.homeDaftarPopuler .daftarPopuler a {
+    position: relative;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler {
+    width: 18vh;
+    height: 28vh;
+    position: relative;
+    display: block;
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler .imgBoxDaftarPopuler {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler .imgBoxDaftarPopuler .viewBoxImgPopuler {
+    width: 100%;
+    height: 2.5vh;
+    font-size: 2vh;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    transform: translateY(17.6vh);
+    text-shadow: 0 0.1vh 0.1vh rgba(255, 255, 255, 0.7);
+    background: rgba(255,255,255,0.9);
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler .imgBoxDaftarPopuler .imgButtonBoxShadow {
+    width: 5vh;
+    background-image: url('res/raw/play.png');
+    height: 5vh;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+    justify-self: center;
+    margin-top: 7vh;
+    background-color: white;
+    box-shadow: 0 0.2vh 0.2vh 0.2vh rgba(0,0,0,0.5);
+    border-radius: 50%;
+    background-position: center; 
+}
+.homeDaftarPopuler .daftarPopuler .shadowBoxDaftarPopuler {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler:hover .imgBoxDaftarPopuler .viewBoxImgPopuler {
+    transform: translateY(20vh);
+    transition: 0.3s;
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler:hover .imgBoxDaftarPopuler .imgButtonBoxShadow, .homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler:hover .shadowBoxDaftarPopuler {
+    opacity: 1;
+    transition: 1s;
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler .teksBoxDaftarPopuler {
+    width: 99%;
+    height: 6vh;
+    transform: translateY(2vh);
+}
+.homeDaftarPopuler .daftarPopuler a .boxDaftarPopuler .teksBoxDaftarPopuler h4 {
+    font-size: 1.8vh;
+    text-align: center;
+    width: 100%;
+    color: black;
+    text-shadow: 0 0.1vh 0.1vh rgba(255, 255, 255, 0.5);
+    line-height: 1.2; /* memberi jarak antarbaris */
+    word-wrap: break-word; /* memaksa teks panjang wrap */
+    overflow-wrap: break-word; /* alternatif modern */
+    white-space: normal; /* pastikan teks bisa wrap */
+    margin: 0 auto; /* center jika perlu */
+}

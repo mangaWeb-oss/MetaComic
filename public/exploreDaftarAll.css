@@ -1,0 +1,144 @@
+
+header #explore {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: 5vh;
+}
+header #explore .exploreLogo {
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    background: white;
+}
+header #explore .exploreLogo .explorePremium {
+    width: 6vh;
+    height: 6vh;
+    margin-left: 3vh;
+    background-image: url('res/raw/premium.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header #explore .exploreLogo h1 {
+    font-size: 3.5vh;
+    color: black;
+    font-family: 'ZalandoSansSemiExpanded',Sans-Serif;
+}
+header #explore .exploreLogo .exploreSimpan {
+    width: 6vh;
+    height: 6vh;
+    margin-right: 3vh;
+    background-image: url('res/raw/simpan.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header #explore .exploreRelative {
+    width: 100%;
+    position: relative;
+    height: 10vh;
+}
+header #explore .daftarAll {
+    width: 100%;
+    position: relative;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(15vh, 1fr));
+    background: rgba(0, 0, 0, 0.05);
+    justify-items: center;
+}
+
+header #explore .daftarAll a {
+    color: black;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    list-style: none;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll {
+    position: relative;
+    display: block;
+    width: 17vh;
+    height: 28vh;
+    margin-top: 2vh;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+    background: white;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll .iconDaftarShadow {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 3vh;
+    z-index: 10;
+}
+
+header #explore .daftarAll a .exploreBoxDaftarAll .imgBoxDaftarAll {
+    width: 100%;
+    position: relative;
+    height: 22vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll .imgBoxDaftarAll .statusBoxDaftarAll {
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    transform: translateY(18vh);
+    align-items: center;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll:hover .imgBoxDaftarAll .statusBoxDaftarAll {
+    transform: translateY(25vh);
+    transition: 0.3s;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll .imgBoxDaftarAll .playBoxDaftarAll {
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    background-image: url('res/raw/play.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    z-index: 10;
+    justify-self: center;
+    margin-top: 10vh;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll:hover .iconDaftarShadow, header #explore .daftarAll a .exploreBoxDaftarAll:hover .playBoxDaftarAll {
+    opacity: 1;
+    transition: 1s;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll .judulBoxDaftarAll {
+    width: 100%;
+    height: 6vh;
+    position: relative;
+}
+header #explore .daftarAll a .exploreBoxDaftarAll .judulBoxDaftarAll p {
+    font-size: 1.8vh;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-shadow: 0 0.1vh 0.1vh rgba(255, 255, 255, 0.5);
+    line-height: 1.2; /* memberi jarak antarbaris */
+    word-wrap: break-word; /* memaksa teks panjang wrap */
+    overflow-wrap: break-word; /* alternatif modern */
+    white-space: normal; /* pastikan teks bisa wrap */
+    margin: 0 auto; /* center jika perlu */
+}
