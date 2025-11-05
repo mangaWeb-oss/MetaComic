@@ -1,9 +1,12 @@
 {
-  "name": "comic-server",
+  "name": "view-counter",
+  "version": "1.2.0",
   "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "dayjs": "^1.11.10",
-    "express": "^4.21.2",
-    "node-fetch": "^3.3.2"
+    "express": "^4.19.2"
   }
 }
